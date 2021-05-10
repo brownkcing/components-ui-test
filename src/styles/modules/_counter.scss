@@ -1,0 +1,33 @@
+.container-title {
+    &.counter, &.table {
+        width: 260px;
+        p, h1 {
+            margin: 0;
+            text-align: right;
+        }
+    }
+}
+
+.container-item {
+    &.counter{
+        display:flex;
+        flex-flow: wrap;
+        width: auto;
+        width: 810px;
+        height: 300px;
+        border: solid 1px grey;
+        border-style: dashed;
+        border-radius: 10px;
+        justify-content: center;
+    }
+}
+
+.counter-item{
+    margin: .5em;
+    align-self: center;
+}
+
+.counter-display {
+    font-size: 50px;
+    margin: 1em 0;
+}

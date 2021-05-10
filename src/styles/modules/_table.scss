@@ -1,0 +1,32 @@
+.table {
+    display: flex;
+    flex-direction: column;
+    
+    .table-head, .dataRow {
+      display: flex;
+      div {
+          flex: 1;
+          padding: 0.7rem 5rem;
+          
+      }
+    }
+    .dataRow {
+        div {
+            border: 1px solid black;
+          }
+    }
+    .table-head {
+      background-color: rgb(49, 79, 254);
+      color: white;
+      border-radius: 10px 10px 0 0;
+      div { 
+        cursor: pointer;
+      }
+   
+    }
+  }
+  .sticky {
+    position: sticky;
+    border-radius: 0;
+    top:0;
+  }

@@ -1,0 +1,18 @@
+.container-item {
+    &.box2{
+        display:flex;
+        flex-flow: wrap;
+        width: auto;
+        width: 810px;
+        height: 150px;
+        border: solid 1px grey;
+        border-style: dashed;
+        border-radius: 10px;
+        justify-content: center;
+    }
+}
+
+.box2-item{
+    margin: .5em;
+    align-self: center;
+}

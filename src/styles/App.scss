@@ -1,0 +1,42 @@
+@import './modules/nav';
+@import './modules/button';
+@import './modules/avatar';
+@import './modules/box1';
+@import './modules/box2';
+@import './modules/counter';
+@import './modules/table.scss';
+
+
+button {
+    padding: 1rem 6rem;
+    background: rgb(49, 79, 254);
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+
+
+.wrapper {
+    padding: 2em;
+    display: block;
+}
+
+.container {
+    max-width: 100vw;
+    max-height: 100vh;
+    display: flex;
+    margin: 5em 1em;
+}
+
+.container-title {
+    padding: 0 5em;
+    margin-bottom: auto;
+}
+
+.container-item {
+    width: 800px;
+    display:flex;
+    height: auto;
+}

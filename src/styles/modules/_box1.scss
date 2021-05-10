@@ -1,0 +1,16 @@
+.container-item {
+    &.box1{
+        display:flex;
+        flex-flow: wrap;
+        width: auto;
+        width: 810px;
+        border: solid 1px grey;
+        border-style: dashed;
+        border-radius: 10px;
+    }
+}
+
+.box1-item{
+    margin: .5em;
+    
+}

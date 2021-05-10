@@ -1,0 +1,19 @@
+.image-avatar {
+    justify-content: space-evenly;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 4em;
+    object-fit: cover;
+    object-position: center right;
+    cursor: pointer;
+    &:nth-child(1) {
+        border: solid 5px rgb(185, 185, 185);
+    }
+    &:nth-child(2) {
+        border: solid 5px rgb(185, 185, 185);
+        &:hover{
+           object-fit: none;
+       }
+    }
+  }

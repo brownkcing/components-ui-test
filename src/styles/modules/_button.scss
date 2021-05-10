@@ -1,0 +1,17 @@
+.button-item {
+    margin: .5em;
+    &:nth-child(2){
+        button {
+            &:hover{
+                background:rgb(9, 45, 248);
+            }
+        }
+    }
+    &:nth-child(3){
+        button {
+            &:active{
+                background:rgb(9, 45, 248);
+            }
+        }
+    }
+}
